@@ -35,8 +35,7 @@ public class MethodsInCollectionInterface {
     boolean removeAnItem = collection.remove(120);
     System.out.println("The specific object is removed : " + removeAnItem);
     System.out.println(collection);
-
-
+    System.out.println("Size after removal an item : " + collection.size());
 
 
   }

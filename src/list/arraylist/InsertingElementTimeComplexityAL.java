@@ -3,7 +3,7 @@ package list.arraylist;
 
 import java.util.ArrayList;
 
-public class InsertingTimeComplexityAL {
+public class InsertingElementTimeComplexityAL {
 
   public static void main(String[] args) {
     ArrayList<String> addList = new ArrayList<>();

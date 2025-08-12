@@ -10,6 +10,8 @@ public class SetDemo {
     set.add("Mumin");
     set.add("Anik");
     set.add("Topu");
+    set.add("Topu"); // Duplicates are not allowed. Show only one data
     System.out.println(set);
+    System.out.println("Total elements : "+set.size());
   }
 }

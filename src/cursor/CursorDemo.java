@@ -21,10 +21,8 @@ public class CursorDemo {
     while (e.hasMoreElements()) {
       Integer number = (Integer) e.nextElement();
       if (number % 2 == 0) {
-        System.out.print(number+" ");
+        System.out.print(number + " ");
       }
     }
-
   }
-
 }

@@ -15,6 +15,8 @@ public class AddElements {
     ll.add(7);
     ll.add(5);
 
+    System.out.println("Number of objects present inside the collection: " + ll.size());
+
     //Print all the element available in the arraylist
     for (int i : ll) {
       System.out.println(i);

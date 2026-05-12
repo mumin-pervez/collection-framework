@@ -12,6 +12,14 @@ public class DuplicatesDataAllowed {
     al.add("Paracetamol");
     al.add("Ace");
     System.out.println(al);
+
+    ArrayList<Integer> al2 = new ArrayList<>();
+    al2.add(10);
+    al2.add(12);
+    al2.add(11);
+    al2.add(10);
+    al2.add(13);
+    System.out.println(al2);
   }
 
 }

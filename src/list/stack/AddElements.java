@@ -13,6 +13,9 @@ public class AddElements {
     stack.push("U");
     System.out.println(stack); // [A, E, I, O, U]
 
+    System.out.println(stack.search("E")); // As found, it will show 4 as offset is 4
+    System.out.println(stack.search("P")); // If not found it will show -1
+
   }
 
 }

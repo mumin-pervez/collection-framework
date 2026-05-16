@@ -11,7 +11,7 @@ public class IteratorDemo {
     list.add("BBA");
     list.add("ECE");
     list.add("ABC");
-
+    System.out.println("Before removing an element: " + list);
     Iterator<String> itr = list.iterator();
     while (itr.hasNext()) {
       String department = itr.next();

@@ -12,10 +12,10 @@ public class NullInsertion {
     treeSet.add("BBA");
     treeSet.add("ECE");
     System.out.println(treeSet); // [BBA, CSE, ECE]
-    treeSet.add(" "); // Only one null value will be inserted
+    // treeSet.add(null); // Only one null value will be inserted
     treeSet.add("Apple");
     System.out.println(treeSet); // [ , Apple, BBA, CSE, ECE]
-    treeSet.add(" "); // Only one null value will be inserted
+   // treeSet.add(null); // Only one null value will be inserted
     treeSet.add("BBA"); // Duplicates will not be inserted
     System.out.println(treeSet); // [ , Apple, BBA, CSE, ECE]
   }

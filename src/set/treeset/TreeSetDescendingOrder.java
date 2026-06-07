@@ -32,5 +32,4 @@ public class TreeSetDescendingOrder {
     System.out.println("Customized Sorting Order (Descending)");
     System.out.println(treeSet);
   }
-
 }

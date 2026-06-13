@@ -12,9 +12,9 @@ public class ShowOnlyKeys {
     hashMap.put(208, "Dr. Monisha Chakroborti");
     hashMap.put(111, "Dr. Abir Hossain");
     System.out.println("Entry are: "+hashMap);
-
     System.out.println("Keys are: " + hashMap.keySet());
     System.out.println("Values are: " + hashMap.values());
+
   }
 
 }
